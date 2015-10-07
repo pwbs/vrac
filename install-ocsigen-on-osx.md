@@ -7,6 +7,8 @@ sudo port install pkgconfig
 port install sqlite3
 # install ocaml and camlp4
 sudo port install ocaml ocaml-camlp4
+# install pcre
+sudo port install pcre
 # install opam
 port install opam
 # init opam
