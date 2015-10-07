@@ -21,7 +21,7 @@ opam switch 4.02.3
 opam install camlzip ocsigenserver eliom
 ##### once all work, proceed to the real thing...
 ######
-# pin
+# pin specific dev versions
 opam pin -n -y add eliom https://github.com/ocsigen/eliom.git
 opam pin -n -y add eliom-base-app https://github.com/ocsigen/eliom-base-app.git
 opam pin -n -y add js_of_ocaml https://github.com/ocsigen/js_of_ocaml.git
@@ -31,6 +31,6 @@ opam pin -n -y add ocsigenserver https://github.com/ocsigen/ocsigenserver.git
 opam pin -n -y add ojquery https://github.com/ocsigen/ojquery.git
 opam pin -n -y add reactiveData https://github.com/hhugo/reactiveData.git
 opam pin -n -y add tyxml https://github.com/ocsigen/tyxml.git
-# install specific dev versions
+# install them
 opam install re aws eliom-base-app ocsigen-toolkit
 ```
