@@ -19,6 +19,15 @@ eval `opam config env`
 opam switch 4.02.3
 # install ocsigen + eliom
 opam install ocsigenserver eliom
-# et voilà! it should work...
-
+######
+# install specific dev versions
+opam pin add eliom https://github.com/ocsigen/eliom.git
+opam pin add eliom-base-app https://github.com/ocsigen/eliom-base-app.git
+opam pin add js_of_ocaml https://github.com/ocsigen/js_of_ocaml.git
+opam pin add ocsigen-toolkit https://github.com/ocsigen/ocsigen-toolkit.git
+opam pin add ocsigen-widgets https://github.com/ocsigen/ocsigen-widgets.git
+opam pin add ocsigenserver https://github.com/ocsigen/ocsigenserver.git
+opam pin add ojquery https://github.com/ocsigen/ojquery.git
+opam pin add reactiveData https://github.com/hhugo/reactiveData.git
+opam pin add tyxml https://github.com/ocsigen/tyxml.git
 ```
