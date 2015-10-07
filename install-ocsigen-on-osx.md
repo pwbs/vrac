@@ -19,5 +19,6 @@ eval `opam config env`
 opam switch 4.02.3
 # install ocsigen + eliom
 opam install ocsigenserver eliom
+# et voilà! it should work...
 
 ```
