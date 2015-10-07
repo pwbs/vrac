@@ -21,13 +21,13 @@ opam switch 4.02.3
 opam install ocsigenserver eliom
 ######
 # install specific dev versions
-opam pin add eliom https://github.com/ocsigen/eliom.git
-opam pin add eliom-base-app https://github.com/ocsigen/eliom-base-app.git
-opam pin add js_of_ocaml https://github.com/ocsigen/js_of_ocaml.git
-opam pin add ocsigen-toolkit https://github.com/ocsigen/ocsigen-toolkit.git
-opam pin add ocsigen-widgets https://github.com/ocsigen/ocsigen-widgets.git
-opam pin add ocsigenserver https://github.com/ocsigen/ocsigenserver.git
-opam pin add ojquery https://github.com/ocsigen/ojquery.git
-opam pin add reactiveData https://github.com/hhugo/reactiveData.git
-opam pin add tyxml https://github.com/ocsigen/tyxml.git
+opam -y pin add eliom https://github.com/ocsigen/eliom.git
+opam -y pin add eliom-base-app https://github.com/ocsigen/eliom-base-app.git
+opam -y pin add js_of_ocaml https://github.com/ocsigen/js_of_ocaml.git
+opam -y pin add ocsigen-toolkit https://github.com/ocsigen/ocsigen-toolkit.git
+opam -y pin add ocsigen-widgets https://github.com/ocsigen/ocsigen-widgets.git
+opam -y pin add ocsigenserver https://github.com/ocsigen/ocsigenserver.git
+opam -y pin add ojquery https://github.com/ocsigen/ojquery.git
+opam -y pin add reactiveData https://github.com/hhugo/reactiveData.git
+opam -y pin add tyxml https://github.com/ocsigen/tyxml.git
 ```
