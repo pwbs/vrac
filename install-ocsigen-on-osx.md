@@ -19,8 +19,7 @@ eval `opam config env`
 opam switch 4.02.3
 # install camlzip + ocsigen + eliom
 opam install camlzip ocsigenserver eliom
-##### once all work, proceed to the real thing...
-######
+###### Installation of 
 # pin specific dev versions
 opam pin -n -y add eliom https://github.com/ocsigen/eliom.git
 opam pin -n -y add eliom-base-app https://github.com/ocsigen/eliom-base-app.git
