@@ -17,8 +17,8 @@ opam init
 eval `opam config env`
 # opam-switch to latest version of ocaml ## building using the system installation of ocaml will likely fail for many obscur reasons (like a ± corrupted camlp4)
 opam switch 4.02.3
-# install ocsigen + eliom
-opam install ocsigenserver eliom
+# install camlzip + ocsigen + eliom
+opam install camlzip ocsigenserver eliom
 ######
 # install specific dev versions
 opam pin -y add eliom https://github.com/ocsigen/eliom.git
