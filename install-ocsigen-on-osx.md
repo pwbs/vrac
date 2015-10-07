@@ -5,8 +5,8 @@ open https://www.macports.org/install.php
 sudo port install pkgconfig
 # install sqlite
 port install sqlite3
-# install ocaml and camlp4
-sudo port install ocaml ocaml-camlp4
+####### # install ocaml and camlp4
+####### sudo port install ocaml ocaml-camlp4
 # install pcre
 sudo port install pcre
 # install opam
@@ -15,6 +15,8 @@ port install opam
 opam init
 ## use a new terminal, or type
 eval `opam config env`
+# opam-switch to latest version of ocaml
+opam switch 4.02.3
 # install ocsigen + eliom
 opam install ocsigenserver eliom
 
