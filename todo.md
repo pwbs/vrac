@@ -5,8 +5,8 @@ open https://www.macports.org/install.php
 sudo port install pkgconfig
 # install sqlite
 port install sqlite3
-# install ocaml
-sudo port install ocaml
+# install ocaml and camlp4
+sudo port install ocaml ocaml-camlp4
 # install opam
 port install opam
 # init opam
