@@ -9,8 +9,8 @@ port install sqlite3
 ####### sudo port install ocaml ocaml-camlp4
 # install pcre
 sudo port install pcre
-# install opam
-port install opam
+# install opam and ocaml
+port install opam ocaml
 # init opam
 opam init
 ## use a new terminal, or type
