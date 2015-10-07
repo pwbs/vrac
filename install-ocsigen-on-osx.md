@@ -31,8 +31,6 @@ opam pin -n -y add ocsigenserver https://github.com/ocsigen/ocsigenserver.git
 opam pin -n -y add ojquery https://github.com/ocsigen/ojquery.git
 opam pin -n -y add reactiveData https://github.com/hhugo/reactiveData.git
 opam pin -n -y add tyxml https://github.com/ocsigen/tyxml.git
-```
-
 # install specific dev versions
 opam install re aws eliom-base-app ocsigen-toolkit
 ```
