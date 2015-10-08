@@ -62,4 +62,5 @@ PS1='\[\e[1;32m\][\u \t \W]\$\[\e[0m\] '
 
 ```bash
 sudo port install findutils coreutils diffutils 
+export PATH=/opt/local/libexec/gnubin:$PATH
 ```
