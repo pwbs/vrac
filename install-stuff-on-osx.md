@@ -1,4 +1,6 @@
-# install ocsigen
+# setup dev env for os x
+
+## Install ocsigen
 
 ```bash
 # install mac ports <https://www.macports.org/install.php>
@@ -36,7 +38,7 @@ opam pin -n -y add tyxml https://github.com/ocsigen/tyxml.git
 opam install re aws eliom-base-app ocsigen-toolkit
 ```
 
-# OS X Emacs stuff
+## OS X Emacs stuff
 
 ```bash
 opam install merlin ocp-indent
