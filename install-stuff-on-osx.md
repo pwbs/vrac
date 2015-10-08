@@ -1,6 +1,6 @@
 # setup dev env for os x
 
-## Install ocsigen
+## Install ocsigen & utils
 
 ```bash
 # install mac ports <https://www.macports.org/install.php>
@@ -15,6 +15,10 @@ port install sqlite3
 sudo port install pcre
 # install ImageMagick
 sudo port install ImageMagick
+# install sass
+sudo gem install sass
+# install md5sum
+sudo port install md5sha1sum
 # install opam and ocaml ## not sure installing ocaml is absolutely necessary but it's convenient to have a system installation of ocaml anyhow
 port install opam ocaml
 # init opam
