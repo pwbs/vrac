@@ -13,6 +13,8 @@ port install sqlite3
 ####### sudo port install ocaml ocaml-camlp4
 # install pcre
 sudo port install pcre
+# install ImageMagick
+sudo port install ImageMagick
 # install opam and ocaml ## not sure installing ocaml is absolutely necessary but it's convenient to have a system installation of ocaml anyhow
 port install opam ocaml
 # init opam
