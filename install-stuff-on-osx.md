@@ -50,3 +50,10 @@ opam install re aws eliom-base-app ocsigen-toolkit
 opam install merlin ocp-indent
 
 ```
+
+
+## Terminal prompt
+
+```
+PS1='\[\e[1;32m\][\u \t \W]\$\[\e[0m\] '
+```
