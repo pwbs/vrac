@@ -57,3 +57,9 @@ opam install merlin ocp-indent
 ```
 PS1='\[\e[1;32m\][\u \t \W]\$\[\e[0m\] '
 ```
+
+## Gnu stuff
+
+```bash
+sudo port install findutils coreutils diffutils 
+```
