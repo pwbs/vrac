@@ -1,3 +1,5 @@
+# install ocsigen
+
 ```bash
 # install mac ports <https://www.macports.org/install.php>
 open https://www.macports.org/install.php
@@ -32,4 +34,11 @@ opam pin -n -y add reactiveData https://github.com/hhugo/reactiveData.git
 opam pin -n -y add tyxml https://github.com/ocsigen/tyxml.git
 # install them
 opam install re aws eliom-base-app ocsigen-toolkit
+```
+
+# OS X Emacs stuff
+
+```bash
+opam install merlin ocp-indent
+
 ```
