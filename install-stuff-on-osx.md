@@ -64,3 +64,13 @@ PS1='\[\e[1;32m\][\u \t \W]\$\[\e[0m\] '
 sudo port install findutils coreutils diffutils 
 export PATH=/opt/local/libexec/gnubin:$PATH
 ```
+
+
+## 
+```bash
+opam install ocamlrss conf-gnutls ocamlnet
+```
+
+```bash
+opam install river
+```
