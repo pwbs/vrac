@@ -65,10 +65,10 @@ sudo port install findutils coreutils diffutils
 export PATH=/opt/local/libexec/gnubin:$PATH
 ```
 
+## Other stuff
 
-## 
 ```bash
-opam install ocamlrss conf-gnutls ocamlnet
+opam install ocamlrss conf-gnutls ocamlnet.4.0.4
 ```
 
 ```bash
