@@ -55,7 +55,7 @@ opam install merlin ocp-indent
 ## Terminal prompt
 
 ```
-PS1='\[\e[1;30m\][\u \t \[\e[0m\]\[\e[1;31m\] \W\[\e[0m\] \[\e[1;30m\]]\$\[\e[0m\] '
+PS1='\[\e[1;30m\][\u \t \[\e[0m\]\[\e[1;31m\] \w\[\e[0m\] \[\e[1;30m\]]\n\$\[\e[0m\] '
 ```
 
 ## Gnu stuff
