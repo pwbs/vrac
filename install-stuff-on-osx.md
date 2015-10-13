@@ -66,8 +66,7 @@ export PATH=/opt/local/libexec/gnubin:$PATH
 
 ```bash
 opam install ocamlrss conf-gnutls ocamlnet.4.0.4
+
+postgres -D local_db/ -p 3000
 ```
 
-```bash
-opam install river
-```
