@@ -27,9 +27,6 @@ opam init
 eval `opam config env`
 # opam-switch to latest version of ocaml ## building using the system installation of ocaml will likely fail for many obscur reasons (like a ± corrupted camlp4)
 opam switch 4.02.3
-# install camlzip + ocsigen + eliom
-opam install camlzip ocsigenserver eliom
-###### Installation of 
 # pin specific dev versions
 opam pin -n -y add eliom https://github.com/ocsigen/eliom.git
 opam pin -n -y add eliom-base-app https://github.com/ocsigen/eliom-base-app.git
@@ -40,8 +37,8 @@ opam pin -n -y add ocsigenserver https://github.com/ocsigen/ocsigenserver.git
 opam pin -n -y add ojquery https://github.com/ocsigen/ojquery.git
 opam pin -n -y add reactiveData https://github.com/hhugo/reactiveData.git
 opam pin -n -y add tyxml https://github.com/ocsigen/tyxml.git
-# install them
-opam install re aws eliom-base-app ocsigen-toolkit
+# install
+opam install camlzip ocsigenserver eliom re aws eliom-base-app ocsigen-toolkit
 ```
 
 ## OS X Emacs stuff
