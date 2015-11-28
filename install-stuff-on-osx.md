@@ -37,8 +37,10 @@ opam pin -n -y add ocsigenserver https://github.com/ocsigen/ocsigenserver.git
 opam pin -n -y add ojquery https://github.com/ocsigen/ojquery.git
 opam pin -n -y add reactiveData https://github.com/hhugo/reactiveData.git
 opam pin -n -y add tyxml https://github.com/ocsigen/tyxml.git
+
+opam pin -n -y add syndic https://github.com/pwbs/Syndic.git#relax
 # install
-opam install camlzip ocsigenserver eliom re aws eliom-base-app ocsigen-toolkit
+opam install camlzip ocsigenserver eliom re aws eliom-base-app ocsigen-toolkit syndic
 ```
 
 ## OS X Emacs stuff
