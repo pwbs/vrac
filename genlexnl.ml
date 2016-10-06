@@ -59,7 +59,7 @@ let make_lexer keywords =
   let rec next_token (strm__ : _ Stream.t) =
     match Stream.peek strm__ with
     | Some (' ' | '\010' | '\013' | '\009' | '\026' | '\012' as c) ->
-        Misc c
+        Some(Misc c)
     | Some ('A'..'Z' | 'a'..'z' | '_' | '\192'..'\255' as c) ->
         Stream.junk strm__;
         let s = strm__ in reset_buffer (); store c; ident s
