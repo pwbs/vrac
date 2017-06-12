@@ -30,7 +30,7 @@ opam switch 4.04.0
 
 
 # install
-opam install camlzip re  
+opam install camlzip re  lwt.2.7.1 ocsigen-i18n ocsigen-start cohttp ezjsonm uunf uutf uuseg base 
 ```
 
 ## OS X Emacs stuff
