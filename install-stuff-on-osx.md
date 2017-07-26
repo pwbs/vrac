@@ -68,5 +68,6 @@ postgres -D local_db/ -p 3000
 # on Debian
 
 ```bash
-aptitude install gcc libc-dev m4 git openssh-client libgmp-dev postgresql libpcre-ocaml-dev m4 openssl perl zlib1g-dev libgdbm-dev  nodejs postgresql-contrib sassc patch bash libev-dev libmariadb-dev
+aptitude install gcc libc-dev m4 git openssh-client libgmp-dev postgresql libpcre-ocaml-dev m4 openssl perl zlib1g-dev libgdbm-dev  nodejs postgresql-contrib sassc patch bash libev-dev libmariadb-dev pkg-config
+
 ```
